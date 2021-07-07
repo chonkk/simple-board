@@ -10,4 +10,4 @@ MySQL container 실행
 >>docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root --name mysql mysql
 
 SimpleBoard 어플리케이션 기동 확인
->> 
+>> http://localhost:8080/swagger-ui.html
