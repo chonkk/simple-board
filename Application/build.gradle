@@ -10,8 +10,8 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
 
 //bootWar 배포시 주석 처리, war 배포시 사용
-bootWar.enabled = false
-war.enabled = true
+//bootWar.enabled = false
+//war.enabled = true
 
 
 repositories {
