@@ -1,4 +1,4 @@
-package com.chonkk.Application;
+package com.chonkk.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.chonkk.Application.web;
+package com.chonkk.app.web;
 
-import com.chonkk.Application.domain.Board;
-import com.chonkk.Application.service.BoardService;
+import com.chonkk.app.domain.Board;
+import com.chonkk.app.service.BoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

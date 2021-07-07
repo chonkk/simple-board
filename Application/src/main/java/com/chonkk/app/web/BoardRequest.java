@@ -1,4 +1,4 @@
-package com.chonkk.Application.web;
+package com.chonkk.app.web;
 
 import lombok.Getter;
 import lombok.Setter;
