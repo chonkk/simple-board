@@ -1,12 +1,18 @@
 plugins {
-	id 'org.springframework.boot' version '2.4.8'
+	id 'org.springframework.boot' version '2.4.4'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'war'
 }
 
 group = 'com.chonkk'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '1.8'
+
+//bootWar 배포시 주석 처리, war 배포시 사용
+bootWar.enabled = false
+war.enabled = true
+
 
 repositories {
 	mavenCentral()
@@ -23,6 +29,7 @@ jar {
 		}
 	}
 }
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -30,6 +37,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	runtimeOnly 'mysql:mysql-connector-java'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
 
 	compile 'io.springfox:springfox-swagger2:2.6.1'
 	compile 'io.springfox:springfox-swagger-ui:2.6.1'
