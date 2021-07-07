@@ -31,7 +31,7 @@ public class BoardController {
     public ResponseEntity<String> delete(@PathVariable("id") Long id){
         try{
             boardService.delete(id);
-            return new ResponseEntity<>("Success",HttpStatus.OK);
+            return new ResponseEntity<>("Success1",HttpStatus.OK);
         }catch(Exception e){
             return new ResponseEntity<>("Error", HttpStatus.OK);
         }
