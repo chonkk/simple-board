@@ -1,8 +1,8 @@
-package com.chonkk.Application.service;
+package com.chonkk.app.service;
 
-import com.chonkk.Application.domain.Board;
-import com.chonkk.Application.domain.BoardRepository;
-import com.chonkk.Application.web.BoardRequest;
+import com.chonkk.app.domain.Board;
+import com.chonkk.app.domain.BoardRepository;
+import com.chonkk.app.web.BoardRequest;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

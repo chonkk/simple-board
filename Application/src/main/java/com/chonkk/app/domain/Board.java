@@ -1,4 +1,4 @@
-package com.chonkk.Application.domain;
+package com.chonkk.app.domain;
 
 
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
